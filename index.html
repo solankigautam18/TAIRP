@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KitchenQuest</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- google fonts cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Cedarville+Cursive&family=EB+Garamond:wght@500&family=Inconsolata:wght@700&family=Lilita+One&family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="upper-main">
+            <img src="/images/upper-background.jpg" alt="img" class="bg-img">
+            <div class="below-img">
+                <div class="header">
+                    <div class="logo-nav">
+                        <!-- logo -->
+                    <div class="logo " style="color: orange; letter-spacing: 5px;">
+                        <h5>KitchenQuest</h5>
+                    </div>
+    
+                    <!-- Navbars -->
+                    <div class="nav">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#category">Category</a></li>
+                            <li><a href="#recipess">Recipes</a></li>
+                            <li><a href="#hotline">Hotline</a></li>
+                        </ul>
+                    </div>
+    
+                    </div>
+    
+                    <!-- Login/Sign-Up Buttons -->
+                    <div class="buttons">
+                      <div class="top-btn">
+                        <button>Login</button>
+                      </div>
+                        <div class="top-btn1">
+                            <button>Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="texts">
+    
+                    <div class="headings">
+                    <h1 class="one">Chefs</h1>
+                    <h1 class="two">Academy</h1>
+                    <h1 class="one">Secrets</h1>
+                    </div>
+    
+                    <div class="cutOut">
+                        <img src="/images/logo1 (1).png" alt="img">
+                    </div>
+    
+                    <div class="play-btn">
+                        <!-- not yet decided -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="lower-main">
+            <!-- Recipes -->
+            <div class="middle"  id="hotline">
+                <div class="upper-mid">
+                <h2>Recipes</h2>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" placeholder="Search recipes and more...">
+                </div>
+                </div>
+                <div class="lower-mid">
+                    <label for="">Sort by:</label>
+                    <select name="select" id="select">
+                        <label for="">Sort by:</label>
+                        <option value="value1">Newest</option>
+                        <option value="value2">Oldest</option>
+                        <option value="value3">Popular</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="menu">
+                <div class="items" id="category">
+                    <button><i class="fa-solid fa-pizza-slice"></i>Pizza</button>
+                    <button><i class="fa-solid fa-ice-cream"></i>Dessert</button>
+                    <button><i class="fa-solid fa-bowl-food"></i>Noodle</button>
+                    <button><i class="fa-solid fa-martini-glass-citrus"></i>Cocktails</button>
+                    <button><i class="fa-solid fa-carrot"></i>Salad</button>
+                </div>
+
+                <div class="recipes">
+                    <div class="div-left">
+                       <div class="salad-img">
+                        <!-- <img src="/images/avocado.png" alt=""> -->
+                        <lord-icon
+                           src="https://cdn.lordicon.com/fyhanzjw.json"
+                           trigger="loop"
+                           delay="1000"
+                           colors="primary:#121331,secondary:#08a88a"
+                           style="width:150px;height:250px; position: relative; top: -20%;">
+                        </lord-icon>
+                       </div>
+                        <div class="outer">
+                            <div class="inner-left">
+                                <h2>Citrus Salad with berries</h2>
+                            <p>In the season of fresh strawberries, I suggest making a very tasty and simple pie with this wonderful berry.</p>
+                            </div>
+                            <div class="bottom">
+                                <div class="bottom-up">
+                                    <p>Serving</p>
+                                    <i class="fa-solid fa-user"></i>
+                                    <i class="fa-solid fa-user"></i>
+                                </div>
+                                <div class="bottom-down">
+                                    <p>Cook Time</p>
+                                    <p><b>1h 54m</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="div-handler">
+                        <div class="div-right">
+                            <div class="image-div">
+                                <img src="/images/salad1 (1).png" alt="">
+                            </div>
+                                <div class="content">
+                                    <h2>Avacado Salad</h2>
+                                    <div class="bottom">
+                                        <div class="bottom-up">
+                                            <p>Serving</p>
+                                            <i class="fa-solid fa-user"></i>
+                                            <i class="fa-solid fa-user"></i>
+                                        </div>
+                                        <div class="bottom-down">
+                                            <p>Cook Time</p>
+                                            <p><b>20m</b></p>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+    
+                        <div class="div-right" id="second-right">
+                            <div class="image-div2">
+                                <img src="/images/logo1 (1).png" alt="">
+                            </div>
+                                <div class="content">
+                                    <h2>Green Chicken Pasta</h2>
+                                    <div class="bottom">
+                                        <div class="bottom-up">
+                                            <p>Serving</p>
+                                            <i class="fa-solid fa-user"></i>
+                                            <i class="fa-solid fa-user"></i>
+                                        </div>
+                                        <div class="bottom-down">
+                                            <p>Cook Time</p>
+                                            <p><b> 54m</b></p>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Choose a Category Portion -->
+        <div class="categories">
+            <div class="heads">
+                <h2>Choose a Category</h2>
+                <h1>Recipe Categories</h1>
+            </div>
+
+            <div class="category-options">
+                <div class="Appetizers">
+                    <img src="/images/appetizer.jpg" alt="">
+                    <p>Appetizers</p>
+                </div>
+
+                <div class="salads">
+                    <img src="/images/salads.jpg" alt="">
+                    <p>Salads</p>
+                </div>
+
+                <div class="vegetarian">
+                    <img src="/images/vegetarian.webp" alt="">
+                    <p>Vegetarian</p>
+                </div>
+
+                <div class="shakes">
+                    <img src="/images/shakes.jpeg" alt="">
+                    <p>Shakes</p>
+                </div>
+
+                <div class="desserts">
+                    <img src="/images/desserts.jpg" alt="">
+                    <p>Desserts</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="recent-recipes">
+            <div class="heads" id="recipess">
+                <h2>Recent Recipes</h2>
+                <h1>Latest Recipes</h1>
+            </div>
+
+            <div class="container Cards">
+                <div class="row cards">
+                    
+                    <!-- Card 1 -->
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="card h-100" style="width: 100%;">
+                            <img class="card-img-top" src="/images/pie.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Tart Pecan Pie</h5>
+                                <p class="card-text"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> <br> Covered with American dark chocolate with baked bread made of gram flour rich with cashews and nuts.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><img src="" alt="">By <span style="font-weight: bold;">Jane Doe</span></li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link"><i class="fa-solid fa-utensils"></i></i>Desserts</a>
+                                <a href="#" class="card-link"><i class="fa-regular fa-clock"></i>1hr 20min</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card 2 -->
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="card h-100" style="width: 100%;">
+                            <img class="card-img-top" src="/images/tikka.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Paneer Tikka</h5>
+                                <p class="card-text"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> <br> Delicous !! Paneer Tikka made after merinating paneer upto 2 hours. Must have food, Recipe in Bio.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><img src="" alt="">By <span style="font-weight: bold;">Jyoti Sinha</span></li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link"><i class="fa-solid fa-utensils"></i></i>Spicy Grilled</a>
+                                <a href="#" class="card-link"><i class="fa-regular fa-clock"></i>30min</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card 3 -->
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="card h-100" style="width: 100%;">
+                            <img class="card-img-top" src="images/appetizer.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Potato filled Dumps</h5>
+                                <p class="card-text"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><br> Rich in carbohydrates for fitness freaks. Filled with Meshed potato and green vegetables. Healthy food ! Healthy life.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><img src="" alt="">By <span style="font-weight: bold;">Alas shate</span></li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link"><i class="fa-solid fa-utensils"></i></i>Moderate</a>
+                                <a href="#" class="card-link"><i class="fa-regular fa-clock"></i>20min</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card 4 -->
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="card h-100" style="width: 100%;">
+                            <img class="card-img-top" src="images/rice.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Chilly Garlic Rice</h5>
+                                <p class="card-text"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> <br> Delicious!! Fried rice rich in protien, made with 30+ hand made spices. Checkout Bio to know more.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item"><img src="" alt="">By <span style="font-weight: bold;">Rosy Lyn</span></li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link"><i class="fa-solid fa-utensils"></i></i>Vegetarian</a>
+                                <a href="#" class="card-link"><i class="fa-regular fa-clock"></i>40min</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card 5 -->
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="card h-100" style="width: 100%;">
+                            <img class="card-img-top" src="images/pizzza.webp" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Pizzaria</h5>
+                                <p class="card-text"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> <br> Thin base extra cheese Grilled Pizza topped with Vegetables and paneer.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">By <span style="font-weight: bold;">Yuvraj</span></li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link"><i class="fa-solid fa-utensils"></i></i>Junk Food</a>
+                                <a href="#" class="card-link"><i class="fa-regular fa-clock"></i>20min</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card 6 -->
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="card h-100" style="width: 100%;">
+                            <img class="card-img-top" src="images/premium_salad.webp" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Salty Salad</h5>
+                                <p class="card-text"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i> <br>A handlful of simple ingridients typify the fresh, vibrant flavors of Green cooking.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">By <span style="font-weight: bold;">Lily Joe</span></li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link"><i class="fa-solid fa-utensils"></i></i>Salad</a>
+                                <a href="#" class="card-link"><i class="fa-regular fa-clock"></i>15min</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Card 7 -->
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="card h-100" style="width: 100%;">
+                            <img class="card-img-top" src="/images/salad.webp" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Spinach Salad</h5>
+                                <p class="card-text"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><br>Green vegetables from Thailand rich in protien and fibre recommended to pregnants.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">By <span style="font-weight: bold;">Raquel</span></li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link"><i class="fa-solid fa-utensils"></i></i>Thai Salad</a>
+                                <a href="#" class="card-link"><i class="fa-regular fa-clock"></i>25min</a>
+                            </div>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+
+            <div class="view-all">
+                <button>View All Recipes</button>
+            </div>
+            
+        </div>
+
+        <div class="bottom-below">
+            <img src="/images/avocado.webp" alt="img" class="bg-img2">
+            <div class="below-img">
+                <div class="heading-down">
+                    <h1>Easily include videos with your <br>recipe instructions</h1>
+                </div>
+
+                <div class="image-line">
+                    <div class="inner-line">
+                        <img src="images/pizzza.webp" alt="">
+                    <img src="images/avocado.webp" alt="">
+                    <img src="images/premium_salad.webp" alt="">
+                    <img src="images/tikka.jpeg" alt="">
+                    <img src="images/desserts.jpg" alt="">
+                    <img src="images/rice.jpeg" alt="">
+                    </div>
+
+                    <div class="inner-btn">
+                        <button><i class="fa-brands fa-instagram" style="color: red;"></i> Follow on Instagram</button>
+                    </div>
+                </div>
+
+                <div class="contact-divs">
+                    <div class="subscribe">
+                        <h1>Subscribe</h1>
+                        <p>Register and get notified about all news <br> & updated before it gets too late.</p>
+                        <div class="email-btn">
+                            <input type="email" name="email" id="email" placeholder="Enter your mail">
+                        <button>Signup</button>
+                        </div>
+                    </div>
+
+                    <div class="explore">
+                        <h1>Explore</h1>
+                        <a href="#recipess">Browse Recipes</a>
+                        <a href="#">Submit a Recipe</a>
+                        <a href="#">Our Chefs</a>
+                        <a href="#">Latest News</a>
+                        <a href="#">Contact</a>
+                    </div>
+
+                    <div class="contact">
+                        <h1>Contact</h1>
+                        <p><i class="fa-solid fa-location-dot"></i>U-18/2 DLF Phase-3 <br>Gurgaon, Haryana</p>
+                        <p><i class="fa-regular fa-envelope"></i>needhelp@kitchenQuest.com</p>
+                        <p><i class="fa-solid fa-phone"></i>99999 11111</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>All Rights Reserved. @kitchenQuest </p>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    
+</body>
+</html>
