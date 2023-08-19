@@ -433,6 +433,10 @@
     color: green;
 }
 
+.card-body p i {
+    color: gold;
+}
+
 /* card hover-effect */
 .card{
     transition: transform 0.3s ease, box-shadow 0.3s ease; 
